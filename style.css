@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+    position:relative;
+    font-family:sans-serif
+}
+.navbar
+{
+    width:86%;
+    display: flex;
+    margin:auto;
+    padding:15px 0;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.name
+{
+    text-decoration: none;
+    color:white;
+    background: orangered;
+    margin-top:-1%;
+    margin-left:-2%;
+    padding:10px 18px;
+    border-radius:20px;
+    display:inline-block;
+    transition:.4s;
+}
+ul{
+    margin-top:-1%;
+}
+ul li{
+    list-style:none;
+    display:inline-block;
+    padding:10px 16px;
+}
+ul li a{
+    font-size:16px;
+    font-weight:bold;
+    text-decoration: none;
+    color:rgb(230,104,59);
+    margin-top: -3%;
+}
+ul li a:hover{
+    color:white;
+}
+.info
+{
+    margin-left:7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size:65px;
+    color:white;
+}
+.info h3{
+    font-size:18px;
+    letter-spacing: 1px;
+    line-height:24px;
+    color: white;
+}
+.info span{
+    color:rgb(230,104,59);
+}
+
+.info a{
+    text-decoration: none;
+    color:orangered;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding:10px 18px;
+    border-radius:10px;
+    display:inline-block;
+    transition:.4s ease;
+}
+.info a:hover{
+    background:rgb(59,174,209);
+}
+.image
+{
+    width:30%;
+    height:60%;
+    position: absolute;
+    right:70px;
+    bottom:0;
+    
+}
+.image img{
+    position:absolute;
+    border-radius:100%;
+    height:140%;
+    left:40%;
+    transition:translate(-55%);
+    bottom:0;
+    transition:left 2s;
+}
+.image:hover .girl{
+    left:55%;
+}
+.icons a{
+    text-decoration:none;
+    color:white;
+
+}
+.icons svg{
+    margin-left:7% ;
+    color:white;
+    margin-right:-60px;
+    font-size:50px;
+    transition: .4s ease;
+}
+.icons svg:hover
+{
+    color:rgb(59,174,209);
+}
+.skill-box
+{
+	width:100%;
+	height:300px;
+	margin:30px;
+	float:left;
+	background-color:black;
+	
+}
+.skill-content
+{
+	width:20%;
+	height:200px;
+	margin:30px;
+	float:left;
+    background-color:wheat;
+    border-radius: 10px;
+	
+}
+
+.skill-box p
+{
+    color: black;
+}
+.skill-box h2{
+	text-align:center;
+	float:left;
+	color:red;
+	margin-left:10px;
+}
+
+.contact-form h2{
+    text-align:centre;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size:36px;
+    color:whitesmoke
+}
+.contact-form form{
+    max-width:50em;
+    margin:1 em auto;
+    text-align:center;
+    margin-bottom:3 em;
+}
+.contact-form form .input-box
+{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width:100%;
+    padding:1.5em;
+    font-size:18px;
+    color:black;
+    background-color:white;
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize:none;
+}
+span{
+    color: orangered;
+}
